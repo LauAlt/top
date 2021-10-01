@@ -1,0 +1,130 @@
+body{
+    background-color: #333;
+    display: grid;
+    place-items: center;
+    font-family: monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+h1{
+    color: pink;
+}
+h2{
+    color: lightyellow;
+}
+span{
+    color: mediumpurple;
+    font-style: italic;
+}
+/* eje en LEFT TOP   square 1 */
+.square{
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    background: lightskyblue;
+    cursor: pointer;
+    transition: 2s cubic-bezier(.62,-0.21,.26,1.65);
+    transform-origin: left top;
+}
+.square:hover{
+    transform: rotate(90deg);
+}
+/* eje en RIGHT TOP   square 2 */
+.square1{
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: rgb(135, 250, 145);
+    transition: 2s cubic-bezier(.62,-0.21,.26,1.65);
+    transform-origin: right top;
+}
+.square1:hover{
+    transform: rotate(90deg);
+}
+/* eje en RIGHT BOTTOM   square 3 */
+.square2{
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: rgb(250, 223, 135);
+    transition: 2s cubic-bezier(.62,-0.21,.26,1.65);
+    transform-origin: right bottom;
+}
+.square2:hover{
+    transform: rotate(90deg);
+}
+/* eje en LEFT BOTTOM   square 4 */
+.square3{
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: rgb(250, 156, 135);
+    transition: 2s cubic-bezier(.62,-0.21,.26,1.65);
+    transform-origin: left bottom;
+}
+.square3:hover{
+    transform: rotate(90deg);
+}
+/* eje en TOP square 5 */
+.square4{
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: rgb(135, 171, 250);
+    transition: 2s cubic-bezier(.62,-0.21,.26,1.65);
+    transform-origin: top ;
+}
+.square4:hover{
+    transform: rotate(90deg);
+}
+/* eje en BOTTOM   square 6 */
+.square5{
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: rgb(183, 135, 250);
+    transition: 2s cubic-bezier(.62,-0.21,.26,1.65);
+    transform-origin: bottom;
+}
+.square5:hover{
+    transform: rotate(90deg);
+}
+/* eje en RIGHT   square 7 */
+.square6{
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: rgb(250, 135, 194);
+    transition: 2s cubic-bezier(.62,-0.21,.26,1.65);
+    transform-origin: right;
+}
+.square6:hover{
+    transform: rotate(90deg);
+}
+/* eje en LEFT   square 8*/
+.square7{
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    cursor: pointer;
+    background: rgb(242, 202, 209);
+    transition: 2s cubic-bezier(.62,-0.21,.26,1.65);
+    transform-origin: left;
+}
+.square7:hover{
+    transform: rotate(90deg);
+}
